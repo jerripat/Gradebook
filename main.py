@@ -50,7 +50,7 @@ def main():
         average = sum(scores) / len(scores) if scores else 0
 
         users.append({
-            "name": name,
+            "name": name.title(),
             "age": age,
             "scores": scores,
             "average": average,
